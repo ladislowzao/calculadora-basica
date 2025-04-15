@@ -9,3 +9,8 @@ def multiplicacao (a,b):
 
 def potencia (base,expoente):
     return base ** expoente
+
+def raiz_quadrada(x):
+    if x < 0 :
+        raise ValueError ("Numero negativo")
+    return x ** 0.5
