@@ -6,3 +6,6 @@ def subtracao(a,b):
 
 def multiplicacao (a,b):
     return a * b
+
+def potencia (base,expoente):
+    return base ** expoente
